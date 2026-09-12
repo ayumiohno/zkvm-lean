@@ -1,0 +1,7 @@
+.DS_Store
+target/
+
+# Cargo.lock は追跡する（risc0 のテンプレートは既定で除外していた）。
+#
+# Docker による再現ビルドは --locked で走るので、lock ファイルの内容が
+# そのまま image ID に効く。除外すると別マシンで再現できない。

@@ -1,0 +1,12 @@
+{
+  "envcheck_id": "4dbcd2fd7590c4a7d9c3974854c6d6949f11e093a77787fdf968c1c007cc0c63",
+  "lean_toolchain": "leanprover/lean4:v4.34.0-rc2",
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound",
+    "Lean.trustCompiler"
+  ],
+  "risc0": "3.0.6",
+  "thmcheck_id": "44088753d3612b3b5641daf6a7af9f962211854afe91693183d3719d1e1350c7"
+}

@@ -1,0 +1,25 @@
+# 生成物
+/out/
+
+# Lean のビルド成果物
+.lake/
+
+# Rust のビルド成果物
+target/
+
+# 外部から取得するもの（scripts/setup.sh が用意する）
+/vendor/
+
+# Mathlib のキャッシュは 7.5GB あるので絶対に追跡しない
+/examples/mathlib/.lake/
+# methods/build.rs が生成する（Stage 1 の image ID）
+/zkvm/methods/thmcheck/src/pinned_envcheck_id.rs
+
+# demo.sh が receipt.bin から毎回作り直す
+/demo/tampered.bin
+
+# macOS
+.DS_Store
+
+# PowerPoint のロックファイル
+~$*

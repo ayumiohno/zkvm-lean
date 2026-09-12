@@ -1,0 +1,12 @@
+name = "mathlibdemo"
+defaultTargets = ["MathlibDemo"]
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+
+[[lean_lib]]
+name = "MathlibDemo"
+
+[[lean_lib]]
+name = "Practical"

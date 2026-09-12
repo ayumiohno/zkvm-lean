@@ -1,0 +1,5 @@
+name = "zkdemo"
+defaultTargets = ["ZkDemo"]
+
+[[lean_lib]]
+name = "ZkDemo"

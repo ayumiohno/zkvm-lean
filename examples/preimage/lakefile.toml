@@ -1,0 +1,17 @@
+name = "preimage"
+defaultTargets = ["Preimage", "Verifier", "Bloat", "Arith", "Style"]
+
+[[lean_lib]]
+name = "Preimage"
+
+[[lean_lib]]
+name = "Verifier"
+
+[[lean_lib]]
+name = "Bloat"
+
+[[lean_lib]]
+name = "Arith"
+
+[[lean_lib]]
+name = "Style"

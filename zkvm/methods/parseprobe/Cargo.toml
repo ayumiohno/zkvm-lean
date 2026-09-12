@@ -1,0 +1,13 @@
+[package]
+name = "parseprobe"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+
+[dependencies]
+risc0-zkvm = { version = "^3.0.6", default-features = false, features = ['std'] }
+serde_json = "1.0"
+nanoda_lib = { path = "../../../forks/nanoda_lib" }
+bytemuck = "1"
+postcard = { version = "1", features = ["alloc"] }
